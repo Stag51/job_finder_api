@@ -4,7 +4,7 @@ def fetch_linkedin_jobs(api_key: str, job_title: str, location: str):
     url = f"https://www.linkedin.com/jobs/search/?keywords={job_title}&location={location}"
     endpoint = "https://api.scrapingdog.com/linkedin/job"
     params = {
-        "67f697f673fd8272886b79f1": api_key,
+        "api_key": api_key,
         "link": url
     }
 
